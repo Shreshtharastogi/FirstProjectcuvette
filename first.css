@@ -1,0 +1,49 @@
+ .container{
+    width: 100vw;
+    height: 100vh;
+ }
+
+.hero{
+    border-style:2px solid black ;
+    display: flex;
+    background-color: antiquewhite;
+}
+
+.left{
+    border-style:2px solid red ;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.right{
+    border-style:2px solid black ;
+    /* margin-bottom: 540px; */
+    margin-left: 200px;
+}
+.buttons{
+padding-top: 15px;
+}
+#lower{
+    color: white;
+}
+.footer{
+    background-color: rgb(21, 21, 18);
+    color: white;
+    display: flex;
+}
+.footer-left{
+    margin-left: 200px;
+}
+.footer-left ul{
+    list-style: none;
+}
+.footer-right{
+    margin-left: 700px;
+}
+.footer-right ul{
+    list-style: none;
+}
+button{
+    background: black;
+    color: aliceblue;
+    border-radius: 8px;
+}
